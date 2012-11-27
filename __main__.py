@@ -7,6 +7,6 @@ MAX_EVENTS = PARAMS['plan']['num-raw-events']
 
 for profile, events in profile_events():
     pevents = profile.get('events', [])
-    pevents.extend(events)
+    pevents.extend((e.timestamp, e.groupkey, e.ip, e.object) for e in events)
     profile['events'] = pevents[-MAX_EVENTS:]
     profile.set_expire(PROFILE_RETENTION)
