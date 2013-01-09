@@ -42,9 +42,3 @@ this profile.
 - **Update interval:** 1 hour
 
 - **Code:** `bitdeli/profile-events-raw <https://github.com/bitdeli/profile-events-raw>`_
-
-
-.. image:: https://d2weczhvl823v0.cloudfront.net/bitdeli/profile-events-raw/trend.png
-   :alt: Bitdeli badge
-   :target: https://bitdeli.com/free
-
